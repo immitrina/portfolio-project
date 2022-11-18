@@ -1,3 +1,20 @@
+/*[via google fonts]
+body font = font-family: "Montserrat", sans-serif;
+    body fonts can have weights of:
+        thin, extralight, light, regular, medium, semibold, or bold.
+heading font = font-family: "Righteous", cursive; */
+
 body {
-  background: red;
+  background: #b7b5ff;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  opacity: 70%;
 }
