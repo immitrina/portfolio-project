@@ -5,16 +5,43 @@ body font = font-family: "Montserrat", sans-serif;
 heading font = font-family: "Righteous", cursive; */
 
 body {
-  background: #b7b5ff;
+  background: #ffedd1;
   margin: 0 auto;
   padding: 80px;
 }
 
 h1 {
   font-family: "Righteous", cursive;
+  margin-bottom: 0px;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   opacity: 70%;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  opacity: 90%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  max-width: 380px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 380px;
+  margin-bottom: 15px;
+}
+
+.mini-bio-headers {
+  font-weight: bold;
+  font-size: 20px;
 }
