@@ -1,47 +1,85 @@
 /*[via google fonts]
-body font = font-family: "Montserrat", sans-serif;
     body fonts can have weights of:
-        thin, extralight, light, regular, medium, semibold, or bold.
-heading font = font-family: "Righteous", cursive; */
+        thin, extralight, light, regular, medium, semibold, or bold. */
+
+:root {
+  --primary-color: #758d62;
+  --secondary-color: #b57060;
+  --tertiary-color: #83a667;
+  --quaternary-color: #725e57;
+  --background-color: #ffedd1;
+  --heading-font: "Righteous", cursive;
+  --subheading-font: "Montserrat", sans-serif;
+}
 
 body {
-  background: #ffedd1;
-  margin: 0 auto;
-  padding: 80px;
+  background: var(--background-color);
+  border: 5px solid;
+  border-color: var(--quaternary-color);
+  margin: auto;
+  padding: 100px;
 }
 
 h1 {
-  font-family: "Righteous", cursive;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
   margin-bottom: 0px;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  opacity: 70%;
+  font-family: var(--subheading-font);
+  color: var(--secondary-color);
+  opacity: 75%;
   margin-bottom: 15px;
 }
 
-p {
-  font-family: "Montserrat", sans-serif;
+h3 {
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 45px;
+  color: var(--secondary-color);
+  opacity: 75%;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: var(--subheading-font);
+  font-size: 20px;
+  color: var(--tertiary-color);
   opacity: 90%;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 ul {
+  font-family: var(--subheading-font);
   list-style-type: none;
   padding-left: 0px;
   max-width: 380px;
+  margin-top: 40px;
 }
 
 li {
   margin-bottom: 15px;
+  opacity: 80%;
 }
 
 img {
   max-width: 380px;
   margin-bottom: 15px;
+  border-radius: 2%;
 }
 
 .mini-bio-headers {
   font-weight: bold;
   font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.col {
+  border: 3px solid;
+  border-color: var(--tertiary-color);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
 }
