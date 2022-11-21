@@ -74,6 +74,11 @@ img {
   border-radius: 2%;
 }
 
+a:hover {
+  transition: all 500ms ease-in;
+  opacity: 0.6;
+}
+
 .mini-bio-headers {
   font-weight: bold;
   font-size: 20px;
