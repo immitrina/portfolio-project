@@ -74,9 +74,18 @@ img {
   border-radius: 2%;
 }
 
+a {
+  color: var(--secondary-color);
+}
+
 a:hover {
   transition: all 500ms ease-in;
   opacity: 0.6;
+}
+
+i {
+  font-size: 40px;
+  color: var(--secondary-color);
 }
 
 .mini-bio-headers {
