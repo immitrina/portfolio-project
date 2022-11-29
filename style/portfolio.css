@@ -12,12 +12,21 @@
   --subheading-font: "Montserrat", sans-serif;
 }
 
+@media (max-width: 530px) {
+  .second-section {
+    display: none;
+  }
+  body {
+    font-size: smaller;
+  }
+}
+
 body {
   background: var(--background-color);
   border: 5px solid;
   border-color: var(--quaternary-color);
   margin: auto;
-  padding: 100px;
+  padding: 10px;
 }
 
 h1 {
@@ -102,7 +111,7 @@ i {
   border: 3px solid;
   border-color: var(--tertiary-color);
   border-radius: 5px;
-  margin: 10px;
+  margin: 15px 10px;
   padding: 40px;
 }
 
@@ -111,4 +120,5 @@ i {
   border: 3px solid;
   border-color: var(--tertiary-color);
   border-radius: 5px;
+  margin: 5px 50px;
 }
