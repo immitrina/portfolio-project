@@ -83,6 +83,10 @@ a:hover {
   opacity: 0.6;
 }
 
+a:visited {
+  color: var(--quaternary-color);
+}
+
 i {
   font-size: 40px;
   color: var(--secondary-color);
